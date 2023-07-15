@@ -2,23 +2,30 @@
 
 const ExclusiveRequest = () => {
   return (
-    <div className="flex justify-center items-center lg:mx-52">
+    <div className="flex justify-center items-center mt-6 px-3 md:px-7 2xl:px-2">
       <div className="mt-3">
-        <div className="text-center pb-1 font-bold text-xl">
+        <div className="text-center mb-1 font-bold text-2xl md:text-3xl">
           <p>Exclusive Material Requests</p>
         </div>
-        <div className="bg-[#F5EDDF] rounded-md px-5 py-4 flex">
-          <div className="mt-5">
-            <p className="text-xs font-bold pb-3">
+        <div className="bg-[#F5EDDF] rounded-md px-5 py-4 md:flex">
+          <div className="md:hidden">
+            <img
+              className="w-96"
+              src="https://materialdepot.in/_next/image?url=%2Fimages%2Fhome%2Fmaterial-request.png&w=1920&q=75"
+              alt=""
+            />
+          </div>
+          <div className="mt-5 lg">
+            <p className="text-lg font-bold pb-3">
               No more wasting time and energy visiting multiple stores.
             </p>
-            <p className="text-sm">
+            <p className="text-[1rem]">
               Just send us a WhatsApp message with your material list, and
               we&apos;ll give you the best quote possible. It&apos;s that easy!
             </p>
-            <div className="w-fit bg-[#20b038] rounded-md text-white px-5 py-2 my-7">
+            <div className="w-full bg-[#20b038] rounded-md text-white px-2 py-3 mt-7 mb-1 md:w-96 md:mt-14">
               <a
-                className="flex"
+                className="flex justify-center items-center"
                 href="https://wa.me/+918121523945?text=Hi%20I%20need%20some%20help%20in%20buying%20these%20materials%20-"
               >
                 <span className="px-2">
@@ -37,11 +44,13 @@ const ExclusiveRequest = () => {
                     />
                   </svg>
                 </span>
-                <p className="text-xs font-bold pr-2">Get Quote on WhatsApp</p>
+                <p className="text-base font-bold pr-2">
+                  Get Quote on WhatsApp
+                </p>
               </a>
             </div>
           </div>
-          <div>
+          <div className="hidden md:flex">
             <img
               src="https://materialdepot.in/_next/image?url=%2Fimages%2Fhome%2Fmaterial-request.png&w=1920&q=75"
               alt=""
