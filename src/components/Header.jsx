@@ -3,8 +3,8 @@
 const NavBar = () => {
   return (
     <div className="bg-white fixed w-full">
-      <nav className="flex justify-between md:items-center bg-black w-full h-20 items-center">
-        <div className="h-fit px-9 py-4 items-center flex">
+      <nav className="flex justify-between md:justify-center  bg-black w-full items-center">
+        <div className="px-9 md:pr-6 py-2 items-center flex">
           <span className="md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ const NavBar = () => {
             </svg>
           </span>
           <img
-            className="w-24 md:w-32 ml-3"
+            className="w-24 md:w-28 ml-3"
             src="https://materialdepot.in/images/header/md_main_logo.png"
             alt="logo"
           />
@@ -53,9 +53,9 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="flex justify-center items-center">
-          <div className="md:bg-white rounded-md md:mr-3 md:py-1">
+          <div className="md:bg-white rounded-md">
             <form className="">
-              <div className="flex h-7 rounded-md items-center">
+              <div className="flex h-5 py-3 lg:w-[35rem] xl:w-[55rem] rounded-md items-center">
                 <span className="items-center px-3 py-2 cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ const NavBar = () => {
                   </svg>
                 </span>
                 <input
-                  className="w-[45rem] hidden md:flex h-7 outline-none text-xs px-2 md:w-36 lg:w-96 xl:w-[45rem]"
+                  className="w-[45rem] hidden md:flex outline-none text-xs px-2 md:w-48 lg:w-full "
                   placeholder="Search for products..."
                 />
                 <a className="px-3 hidden md:flex" href="#">
@@ -100,8 +100,8 @@ const NavBar = () => {
               </div>
             </form>
           </div>
-          <div className="flex text-white text-xs items-center px-3">
-            <div className="justify-between hidden md:flex md:text-base md:gap-5 md:mr-6">
+          <div className="flex text-white text-xs items-center mx-3">
+            <div className="justify-between hidden md:flex md:text-base md:gap-5 md:mr-2">
               <div className="flex items-center">
                 <a className="" href="#">
                   Categories
@@ -143,8 +143,8 @@ const NavBar = () => {
                 </span>
               </div>
             </div>
-            <div className="items-center pr-3">
-              <button className="bg-[#FFDB15] text-sm px-5 font-medium text-black py-3 md:py-3 md:px-4 items-center rounded-md">
+            <div className="items-center mr-3 py-1">
+              <button className="bg-[#FFDB15] text-sm md:text-xs px-5 font-medium text-black py-3 md:py-2 items-center rounded-md">
                 Sign In
               </button>
             </div>
@@ -153,8 +153,8 @@ const NavBar = () => {
       </nav>
       <div className="hidden lg:flex lg:justify-center lg:items-center border-b-2">
         <nav className="py-1">
-          <div className="flex justify-center items-center py-1">
-            <ul className="flex text-sm font-medium cursor-pointer">
+          <div className="px-5">
+            <ul className="flex text-xs font-medium cursor-pointer">
               <li className="flex items-center  px-2">
                 <a href="#">Plywood & Boards</a>
                 <span className="px-1">

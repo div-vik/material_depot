@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="">
+    <div className="mt-10 px-8 border-t-black border-t-2 md:border-none">
       <div className="">
-        <div className="grid grid-cols-4 ">
-          <div className="flex justify-center items-center text-center">
-            <div className="">
+        <div className="lg:grid lg:grid-cols-4 lg:gap-2 mt-24 md:mt-0">
+          <div className="flex justify-center items-center">
+            <div className="mb-10">
               <img
-                className="w-28 h-10 mb-2 md:xl:mx-5"
+                className="mx-auto lg:mx-0 my-2"
                 src="https://materialdepot.in/images/header/main_logo.svg"
                 alt="logo"
               />
-              <p className="text-[0.7rem]">
+              <p className="text-base">
                 @2023 Material Depot All Rights Reserved
               </p>
             </div>
           </div>
-          <div>
-            <p className="text-sm font-light">MATERIAL DEPOT</p>
-            <div className="text-xs font-bold my-4">
+          <div className="">
+            <p className="text-lg font-light">MATERIAL DEPOT</p>
+            <div className="text-[1rem] font-bold my-4">
               <div>
                 <Link to="#">FAQs</Link>
               </div>
@@ -36,8 +36,8 @@ const Footer = () => {
               </div>{" "}
             </div>
           </div>
-          <div>
-            <p className="text-sm font-light">FOLLOW US</p>
+          <div className="mb-5">
+            <p className="text-lg font-light">FOLLOW US</p>
             <div className="flex mt-4 mb-2 gap-2">
               <div>
                 <a href="https://www.linkedin.com/company/materialdepot">
@@ -151,14 +151,14 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <p className="text-sm font-light">BLOG</p>
+            <p className="text-lg font-light">BLOG</p>
           </div>
           <div>
-            <p className="text-sm font-light">Download the App Now</p>
+            <p className="text-lg font-light">Download the App Now</p>
             <div className="my-4">
               <a href="https://play.google.com/store/apps/details?id=in.materialdepot.materialdepot_flutter_app">
                 <img
-                  className="w-24"
+                  className="w-36"
                   src="https://materialdepot.in/images/footer/googleplay.svg"
                   alt="button"
                 />
@@ -166,11 +166,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="px-12 my-2">
-          <div
-            className="text-[0.7rem] border-t-black px-2 py-1 flex gap-2"
-            style={{ borderTopWidth: "1px" }}
-          >
+        <div
+          className="mt-14 lg:flex border-t-black"
+          style={{ borderTopWidth: "1px" }}
+        >
+          <div className="text-sm px-2 py-1 flex lg:gap-2 lg:mb-2">
             <div>
               <Link to="#">Terms & Conditions</Link>
             </div>
@@ -183,6 +183,16 @@ const Footer = () => {
             <div>
               <Link to="#">Shipping Policy</Link>
             </div>
+            <Link to="#">
+              <strong>
+                Powered by{" "}
+                <strong>
+                  All Building Materials Technologies Private Limited
+                </strong>
+              </strong>
+            </Link>
+          </div>
+          <div className="px-2 py-1 mb-2 lg:hidden">
             <Link to="#">
               <strong>
                 Powered by{" "}

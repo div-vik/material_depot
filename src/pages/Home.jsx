@@ -4,6 +4,7 @@ import {
   designersChoice,
   essentialBasics,
   houseOfMaterials,
+  materialDepotExclusive,
   theStyleSpectrum,
   tileGallery,
   tileGallery2,
@@ -41,7 +42,7 @@ const Home = () => {
         <FeaturedCard title="The Style Spectrum" data={theStyleSpectrum} />
         <FeaturedCard
           title="Material Depot Exclusives"
-          data={houseOfMaterials}
+          data={materialDepotExclusive}
         />
         <Download />
         <Services />

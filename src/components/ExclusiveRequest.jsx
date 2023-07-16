@@ -2,9 +2,9 @@
 
 const ExclusiveRequest = () => {
   return (
-    <div className="flex justify-center items-center mt-6 px-3 md:px-7 2xl:px-2">
+    <div className="flex justify-center items-center mt-6 px-3 md:px-7 lg:px-24 xl:px-36">
       <div className="mt-3">
-        <div className="text-center mb-1 font-bold text-2xl md:text-3xl">
+        <div className="text-center mb-2 font-bold text-2xl md:text-3xl">
           <p>Exclusive Material Requests</p>
         </div>
         <div className="bg-[#F5EDDF] rounded-md px-5 py-4 md:flex">
@@ -15,7 +15,7 @@ const ExclusiveRequest = () => {
               alt=""
             />
           </div>
-          <div className="mt-5 lg">
+          <div className="mt-5">
             <p className="text-lg font-bold pb-3">
               No more wasting time and energy visiting multiple stores.
             </p>
@@ -52,6 +52,7 @@ const ExclusiveRequest = () => {
           </div>
           <div className="hidden md:flex">
             <img
+              className="w-96"
               src="https://materialdepot.in/_next/image?url=%2Fimages%2Fhome%2Fmaterial-request.png&w=1920&q=75"
               alt=""
             />

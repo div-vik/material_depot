@@ -115,27 +115,27 @@ export const designersChoice = [
 export const wallPanelArtistry = [
   {
     id: "1",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Classic_Wood_Cladding_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Charcoal_Panels_priced.jpg?width=100",
   },
   {
     id: "2",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Elegant_Quartz_Surfaces_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/MDF%20Panels_priced.jpg?width=100",
   },
   {
     id: "3",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Marble_TV%20Unit_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/WPC_Panels_priced.jpg?width=100",
   },
   {
     id: "4",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Sleek_kitchen_cabinets_spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Wooden_look-375.jpg?width=100",
   },
   {
     id: "5",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/solids_on_wardrobe_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Plain_Colour_Panels_priced.jpg?width=100",
   },
   {
     id: "6",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/timber_tone_kitchen_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Marble%20Texture%20Panels_priced.jpg?width=100",
   },
 ];
 
@@ -175,108 +175,132 @@ export const wallPanelArtistry2 = [
 export const essentialBasics = [
   {
     id: "1",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Classic_Wood_Cladding_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/MR_grade_plywood.jpg?width=100",
   },
   {
     id: "2",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Elegant_Quartz_Surfaces_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/BWP_grade_plywood.jpg?width=100",
   },
   {
     id: "3",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Marble_TV%20Unit_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/BWR_Grade_plywood.jpg?width=100",
   },
   {
     id: "4",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Sleek_kitchen_cabinets_spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/fully_calibrated_plywood.jpg?width=100",
   },
   {
     id: "5",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/solids_on_wardrobe_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/okume_face_plywood.jpg?width=100",
   },
   {
     id: "6",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/timber_tone_kitchen_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/gurjan_face_plywood.jpg?width=100",
   },
 ];
 
 export const theStyleSpectrum = [
   {
     id: "1",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Classic_Wood_Cladding_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Scandinavian_design_theme.jpg?width=100",
   },
   {
     id: "2",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Elegant_Quartz_Surfaces_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Minimalist_design_theme.jpg?width=100",
   },
   {
     id: "3",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Marble_TV%20Unit_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Modern_design_theme.jpg?width=100",
   },
   {
     id: "4",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Sleek_kitchen_cabinets_spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Bohemian_design_theme.jpg?width=100",
   },
   {
     id: "5",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/solids_on_wardrobe_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Coastal_design_theme.jpg?width=100",
   },
   {
     id: "6",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/timber_tone_kitchen_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Traditional_design_theme.jpg?width=100",
   },
 ];
 
 export const materialDepotExclusive = [
   {
     id: "1",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Classic_Wood_Cladding_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/apple_exclusive_brand.jpg?width=100",
   },
   {
     id: "2",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Elegant_Quartz_Surfaces_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/vivre_exclusive_brand.jpg?width=100",
   },
   {
     id: "3",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Marble_TV%20Unit_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/therare_exclusive_brand.jpg?width=100",
   },
   {
     id: "4",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Sleek_kitchen_cabinets_spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/viva_exclusive_brand.jpg?width=100",
   },
   {
     id: "5",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/solids_on_wardrobe_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/sol_exclusive_brand.jpg?width=100",
   },
   {
     id: "6",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/timber_tone_kitchen_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/alimo_exclusive_brand.jpg?width=100",
   },
 ];
 
 export const trendingNow = [
   {
     id: "1",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Classic_Wood_Cladding_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/wooden_texture_laminates.jpg?width=100",
   },
   {
     id: "2",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Elegant_Quartz_Surfaces_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/fabric_laminates.jpg?width=100",
   },
   {
     id: "3",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Marble_TV%20Unit_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/bathroom_Tile.jpg?width=100",
   },
   {
     id: "4",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/Sleek_kitchen_cabinets_spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/bedroom_Tiles.jpg?width=100",
   },
   {
     id: "5",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/solids_on_wardrobe_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/elevation_Tiles_nonpriced.jpg?width=100",
   },
   {
     id: "6",
-    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/timber_tone_kitchen_Spaces.jpg?width=100",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/highlighter_tiles.jpg?width=100",
+  },
+  {
+    id: "7",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/kitchen_Tiles.png?width=100",
+  },
+  {
+    id: "8",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/living_room_Tiles.jpg?width=100",
+  },
+  {
+    id: "9",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/parking_Tiles_nonpriced.jpg?width=100",
+  },
+  {
+    id: "10",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/marble_look_tiles.jpg?width=100",
+  },
+  {
+    id: "11",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/stacked_stone_Tiles.png?width=100",
+  },
+  {
+    id: "12",
+    url: "https://d3faqy0icgqzj8.cloudfront.net/CollectionImages/brick_look_tiles_nonpriced.jpg?width=100",
   },
 ];
 
