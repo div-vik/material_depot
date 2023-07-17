@@ -15,7 +15,7 @@ const FeaturedCard = ({ title, data, className }) => {
     <div className="px-4 lg:flex lg:justify-center lg:items-center">
       <div>
         <div className="my-5 md:my-11 lg:px-0 text-2xl font-bold">{title}</div>
-        <div className="flex overflow-x-scroll overflow-y-hidden lg:block">
+        <div className="flex overflow-x-scroll overflow-y-hidden lg:block lg:overflow-hidden">
           <div>
             <div className="flex shadow-sm gap-2 lg:gap-3">
               <Card data={items} />
