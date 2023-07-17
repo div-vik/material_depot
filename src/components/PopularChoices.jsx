@@ -19,7 +19,7 @@ const PopularChoices = ({ data, className }) => {
           </p>
         </div>
         <section className="flex justify-center items-center">
-          <div className="flex overflow-x-scroll overflow-y-hidden gap-5 md:grid md:grid-cols-3 lg:grid-cols-4 md:overflow-hidden">
+          <div className="flex overflow-x-scroll overflow-y-hidden gap-5 md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 md:overflow-hidden">
             <RoundCard data={item} />
           </div>
         </section>
