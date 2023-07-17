@@ -3,15 +3,18 @@
 @tailwind utilities;
 
 .partner {
-  animation: linearMove 5s infinite;
-  animation-timing-function: linear;
+  animation: 10s slide infinite linear;
 }
 
-@keyframes linearMove {
+.partner1:hover .partner {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
   fromt {
-    left: 0px;
+    transform: translateX(0);
   }
   to {
-    left: 200px;
+    transform: translateX(-100%);
   }
 }

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     // flex justify-center items-center pt-2 pb-5 mx-10 mt-11
-    <div className="px-3 py-2 mt-14 md:flex md:px-9 lg:px-11 xl:px-20 md:gap-5">
-      <div className="mb-4 md:h-[15.5rem]">
+    <div className="px-3 md:mt-24 md:flex md:px-9 lg:px-36 xl:px-48 md:gap-5">
+      <div className="mb-4 md:mb-0 md:h-[15.5rem]">
         {/* w-[34rem] mr-4*/}
         <Link to="#">
           <video muted autoPlay loop className="w-full">

@@ -2,7 +2,7 @@
 
 const ExclusiveRequest = () => {
   return (
-    <div className="flex justify-center items-center mt-6 px-3 md:px-7 lg:px-24 xl:px-36">
+    <div className="flex justify-center items-center mt-6 px-3 lg:mx-48 xl:mx-72">
       <div className="mt-3">
         <div className="text-center mb-2 font-bold text-2xl md:text-3xl">
           <p>Exclusive Material Requests</p>

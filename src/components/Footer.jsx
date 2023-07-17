@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="mt-10 px-8 border-t-black border-t-2 md:border-none">
+    <div className="pt-11 md:mb-1 md:mt-24 px-8 border-t-black border-t-2 md:border-none">
       <div className="">
         <div className="lg:grid lg:grid-cols-4 lg:gap-2 mt-24 md:mt-0">
           <div className="flex justify-center items-center">
@@ -183,7 +183,7 @@ const Footer = () => {
             <div>
               <Link to="#">Shipping Policy</Link>
             </div>
-            <Link to="#">
+            <Link className="hidden md:flex" to="#">
               <strong>
                 Powered by{" "}
                 <strong>
@@ -192,7 +192,7 @@ const Footer = () => {
               </strong>
             </Link>
           </div>
-          <div className="px-2 py-1 mb-2 lg:hidden">
+          <div className="px-2 py-1 mb-2 md:hidden">
             <Link to="#">
               <strong>
                 Powered by{" "}

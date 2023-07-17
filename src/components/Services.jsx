@@ -7,7 +7,7 @@ const Services = () => {
         <div className="text-center mb-7 pb-5">
           <p className="text-2xl font-bold">Shop With Confidence</p>
         </div>
-        <div className="grid grid-cols-2 md:flex text-[#0b1841]">
+        <div className="grid grid-cols-2 md:justify-center md:items-center md:flex text-[#0b1841]">
           <div className="w-56 mb-5 text-center ">
             <div className=" flex justify-center items-center mx-5">
               <img
